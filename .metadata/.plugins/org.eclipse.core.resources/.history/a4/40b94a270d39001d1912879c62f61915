@@ -1,0 +1,9 @@
+public class MainData {
+		
+		public static void main (String[] args) {
+
+			Data d = new Data(int dia,int mes,int ano);
+			d.Data(20, 9, 2022);
+			System.out.println(d.toString());
+	}
+}

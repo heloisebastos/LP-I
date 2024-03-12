@@ -1,0 +1,27 @@
+package br.edu.ifmt.sistemaacademico;
+import util.Teclado;
+
+public class Automoto {
+	public static void main(String[] args) {
+		
+		//String lista[] = new String [10];
+		String frase = Teclado.lerString("Digite a palavra");
+		for (int j = 0; j < frase.length(); j++) {
+			switch (frase.charAt(j)) {
+			case 1:
+				 teste();
+				break;
+			}
+			
+		}
+	}
+	
+}
+
+/*if (frase.charAt(j) == token) {
+			       System.out.println("tudo certo e nada resolvido");
+			       break;
+			  }else {
+				  System.out.println("deu ruim!!!:( ");
+				  break;
+			  }*/

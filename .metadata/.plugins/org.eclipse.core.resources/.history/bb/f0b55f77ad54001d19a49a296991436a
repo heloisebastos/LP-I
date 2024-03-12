@@ -1,0 +1,68 @@
+package br.edu.ifmt.rhsis;
+
+import util.Teclado;
+
+public class Funcionario {
+	private String nome1;
+	private String matricula;
+	private double salario;
+	private int tipo;
+
+	//construtor
+	public Funcionario(String nome1,String matricula,int tipo,double salario){
+		this.nome1=nome1;
+		this.matricula=matricula;
+		this.tipo=tipo;
+		this.salario=salario;
+	}
+	
+	
+	/*public double getCalculaSalario() {
+		if (tipo==1) {
+			salario=Teclado.lerDouble("Digite o salario base tipo 1");
+			return this.calculaSalario=(salario*0.1)+salario;
+		}else{
+			salario=Teclado.lerDouble("Digite o salario base tipo 2");
+			return this.calculaSalario=salario+1200;
+		}
+		
+	}*/
+
+	public String getNome1() {
+		return nome1;
+	}
+
+	public void setNome1(String nome1) {
+		this.nome1 = nome1;
+	}
+ 
+	public String getMatricula() {
+		return matricula;
+	}
+
+	public void setMatricula(String matricula) {
+		this.matricula = matricula;
+	}
+
+	public double getSalario() {
+		return salario;
+	}
+
+	public void setSalario(double salario) {
+		this.salario = salario;
+	}
+
+	public int getTipo() {
+		return tipo;
+	}
+
+	public void setTipo(int tipo) {
+		this.tipo = tipo;
+	}
+	
+	
+	@Override
+	public String toString() {
+		return "Funcionario [nome1=" + nome1 + ", matricula=" + matricula + ", salario=" + salario + ", tipo=" + tipo+ "]";
+	}
+}

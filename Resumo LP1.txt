@@ -1,0 +1,68 @@
+
+Slogan do JAVA : escreva uma vez e rode em qualquer lugar
+
+POO é um paradigma de programção 
+
+POO possui Classe e objeto
+
+Seu tripé de sustentação é : Encapsulamento,Herança & Polimorfismo;
+
+# Encapsulamento
+
+	->São os modificadores de acesso:padrão,private;protect e public;
+
+
+
+# Herança (Aclopamento)
+
+	-> Super-classe
+		subclasse	
+			*pode subescrita(anular) e acrescentar;
+
+	-> classe abstrata
+		é classe que serve de base para as subclasses e ela nao pode instanciar,pode ter metodos concretos e abstratos
+	
+	-> Herança: Agregação e composição
+
+
+
+#Polimorfismo
+
+
+	-> 
+
+#Semantica(refere-se ao sentido/significado da senteça)  e Sintaxe(é o uso correto do ;,{} e ()) 
+
+
+#Assinatura
+ -> Assinatura é composto por 6 itens:
+		tipo acesso (padrão,private;protect;public);
+			tipo de metodo(da classe ou do atributo);
+				tipo de return (string.float,int.... ou sem return);
+					Classificação se é concreto ou abstratc;
+						Nome do metodo (conversão :sempre usar palavras no infnitivo)
+							Parâmetro (se tem ou não parâmetro)
+
+
+Interface
+É uma instrutura que define padrões para implementação da classe .
+
+ganhos : implementa polimorfi
+
+
+public interface(){}
+
+public class xxx implements 'nome da interface'(){}
+
+main{
+
+metodo padrao  onj = new ....
+nomemetodoqueprintinterface();
+}
+
+método
+public static void nome da classe(nome interface i(nomegerenico)){
+
+i.nomemetodoqueprintinterface();
+
+}

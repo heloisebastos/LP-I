@@ -1,0 +1,10 @@
+package br.edu.ifmt.academicosis;
+import java.util.Iterator;
+
+public class ImprimeColecao {
+	Iterator colecao;
+
+	public ImprimeColecao(IColecaoGenerica colecaoGenerica) {
+		
+	}
+}

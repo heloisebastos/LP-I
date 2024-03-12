@@ -1,0 +1,14 @@
+
+public class MainPais {
+	
+	public static void main (String[] args) {
+		
+		String codIso = Teclado.lerString("Codigo ISO");
+		String nome = Teclado.lerString("Nome pais");
+		String dimensao = Teclado.lerString("Dimensao");
+		Pais p1 = new Pais(codIso,nome,dimensao);
+	    //p1.Pais(codIso,nome,dimensao);
+		
+		System.out.println(p1.getCodIso());
+	}	
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;br.edu.ifmt.www.RHSis&apos; to &apos;br.edu.ifmt.rhsis&apos;&#x0D;&#x0A;- Original project: &apos;sistema&apos;&#x0D;&#x0A;- Original element: &apos;sistema/src/br.edu.ifmt.www.RHSis&apos;&#x0D;&#x0A;- Renamed element: &apos;sistema/src/br.edu.ifmt.rhsis&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;br.edu.ifmt.www.RHSis&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;br.edu.ifmt.www.RHSis" name="br.edu.ifmt.rhsis" qualified="false" references="true" stamp="1665675202477" textual="false" version="1.0"/>
+</session>

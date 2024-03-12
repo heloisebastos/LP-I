@@ -1,0 +1,14 @@
+package br.edu.ifmt.academicosis;
+import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.Collections;
+
+public class ColecaoDisciplina implements IColecaoGenerica{
+	ArrayList listaDisciplina;
+	
+	public ColecaoDisciplina() {
+		listaDisciplina = new ArrayList();
+	}
+	
+	
+}
